@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+SA+Beginner&family=Raleway:wght@300&display=swap');
+
+body{
+    font-family: 'Cormorant SC', serif;
+    font-weight: 300;
+    color:rgb(10, 16, 21);
+}
+/*Image; code from loverunning project*/
+#imagejason {
+    float: left;
+}
+
+
+
+h1{ 
+    font-family: 'Cormorant SC', serif;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    color: rgb(24, 35, 31);
+    
+    
+}
+/*menu links*/
+#menu
+{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+#cover-text
+
+   {
+    color:aliceblue
+   } 
+    
+    /*images*/
+
+#imagejason
+ {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-jaxson-bryden-2040626\ \(1\).jpg')no-repeat
+    center
+   }
+   
+  #times {
+   font-family: 'Times New Roman', Times, serif; 
+  }
+  
+
+/*fun to do*/
+#fun-to-do {
+    height:600px;
+}
+#left-ab
+{
+padding-top: 30px;
+width: 33%;
+float: left;
+}
+#right-ab
+{
+padding-top:30px;
+width: 33%;
+float:right;
+
+}
+#center-ab{
+    padding-top:  30px;
+    margin: 0 auto;
+}
+#left-ab-heading
+{width:60%;
+float:right;
+line-height:20px;
+clear:both;
+}
+#right-ab-heading {
+  width: 60%;
+  float:left;
+  line-height:20px;
+  clear:both;  
+}
+/*heading for fun*/
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+}
+/*waterfun*/
+#bold {color: aqua;}
+/*sightseeing*/
+#light {color: blueviolet;}
+
+/*picture for fun*/
+
+#cont{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style:solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
+#cov{
+    background: url('../images/pexels-oliver-sjöström-1433052\ \(1\).jpg') no-repeat center;
+    height: 100%;
+
+}
+
+
+#bold {color: aqua;}
+#light {color: blueviolet;}
+#box{
+    background-color: aliceblue;
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+}
+#open {
+    background-color: aliceblue;
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+}
+footer {
+    background-color: #8db0cf;
+    padding: 1em;
+    text-align: center;
+}
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Project 1:README
 
 in the Menu section the user can find navigation links to the "About", "Fun to do" and "Buisness inquiris" sections.
@@ -15,6 +16,18 @@ in the Menu section the user can find navigation links to the "About", "Fun to d
 -The two topics are divided and in center you can se a picture of Brac
 
 ## Buisness Inquris
+=======
+
+
+
+
+image.png
+
+## Project 1 Welcome to Makarska
+
+This site is an tourist guidline for tourist visiting Makarska. It is an simple guide to create some basic knowleadge about Makarska.
+In the menu section users can choose to visit 4 differente sections: "About,
+>>>>>>> 7636e74 (test)
 
 -Here users can send questions to a toursit guide. Users can also book a meeting with and tour guide
 -The users can fill out a textbox with questions and requests and also provid with name and email
