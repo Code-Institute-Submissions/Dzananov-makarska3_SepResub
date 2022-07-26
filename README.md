@@ -1,37 +1,85 @@
-<<<<<<< HEAD
-## Project 1:README
+<h1>Project 1: Readme</h1>
+<h2>Purpose</h2>
+<p>Purpose of the project is for users of the website is to have a collected site with information about Makarska. The user can read a little about Makarska and also click in the menu to read about "fun to do" in Makarska and also contact an touris guide via the website.</p>
+
+![bild](assets/images/bild1projekt.jpg)
+
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>The user has an menu section(as you can see on the print abowe) where he/she can click on the links and the page will automaticlly scroll to:</li>
+   <li>Fun to do: A page with suggestions to what you can do when in Makarska.</li>
+   <li>About: A little facts about Makarska.</li>
+   <li>Buisness Inquires: A form where the user can get in touch with a touris guide</li>
+
+</ul>
 
 in the Menu section the user can find navigation links to the "About", "Fun to do" and "Buisness inquiris" sections.
 ![image](https://user-images.githubusercontent.com/108834853/180093984-00174115-7ec0-4234-9486-c7beb51b1ccf.png)
 
 
-## About
--In this section users can read a little about Makarska and why it is worth visiting this town, where it is located and some tourist attractions.
--The section is placed in a box to make the text stand out a little from the background.
+
+<h3>About</h3> 
+ <ul>
+  <li>In this section users can read a little about Makarska and why it is worth visiting this town, where it is located and some tourist attractions.</li>
+  <li>The section is placed in a box to make the text stand out a little from the background.</li>
+</ul>
+
+![bild](assets/images/projekt1bild2.jpg)
 
 
-## Fun to do
--This section describes for the users what you can do in Makarska.
--The users can read about waterfun and sightseeing. 
--The two topics are divided and in center you can se a picture of Brac
+<h3>Fun to do</h3>
+ <ul>
+  <li>This section describes for the users what you can do in Makarska.</li>
+  <li>The users can read about waterfun and sightseeing.</li>
+  <li>The two topics are divided and in center you can se a picture of Brac</li>
+ </ul>
 
-## Buisness Inquris
-=======
+ ![bild](assets/images/projekt1bild3.jpg)
+
+<h3> Buisness Inquris</h3>
+ <ul>
+  <li>A section with an form where user can fill out with name, email(requried) and a message and a tourisguide will get in touch</li>
+ </ul>
+ 
+ ![bild](assets/images/projekt1bild4.jpg)
+
+<h2>Future features</h2>
+ <ul>
+  <li>implement a gallery with touris pictures</li>
+</ul>
+
+<h2>Testing</h2>
+
+ <h3>Validator testing</h3>
+ <p>The website was tested in different programes and came back without errors. Programs I used.</p>
+  <ul>
+   <li>W3C Validatore for HTML</li>
+   <li>(Jigsaw) Validatore for CSS</li>
+  </ul> 
+
+ <h3>Bugs</h3>
+  <li> three bugs where detected and fixed during the validation of the project</li>
+
+ ![bild](assets/images/debug1.jpg)
+ <p>A dubbel closing "head" element. Was fixed by removing it</p>
+
+ 
+  <h3>Unfixed bugs</h3>
+   <li>No unfixed bugs</li>
+
+<h2>Credits</h2>
+ <h3>Text</h3>
+   <ul>
+    <li>The codes to the menu where taken from the "Loverunning project"</li>
+    <li>The footer codes where taken from the "Loverunning Project"</li>
+    </ul>   
+ <h3>Media</h3>
+  <ul>
+   <li>The photos where taken from pexels</li>   
 
 
 
-
-image.png
-
-## Project 1 Welcome to Makarska
-
-This site is an tourist guidline for tourist visiting Makarska. It is an simple guide to create some basic knowleadge about Makarska.
-In the menu section users can choose to visit 4 differente sections: "About,
->>>>>>> 7636e74 (test)
-
--Here users can send questions to a toursit guide. Users can also book a meeting with and tour guide
--The users can fill out a textbox with questions and requests and also provid with name and email
--There is also information about tourguid working houres
 
 
 
