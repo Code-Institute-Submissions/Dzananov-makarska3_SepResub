@@ -58,6 +58,7 @@ color:#8db0cf
 
 #fun-to-do {
     height:600px;
+    
 }
 
 #left-ab
@@ -65,13 +66,15 @@ color:#8db0cf
 padding-top: 30px;
 width: 33%;
 float: left;
+
 }
 
 #right-ab
 {
 padding-top:30px;
-width: 33%;
+max-width: 33%;
 float:right;
+
 }
 
 #center-ab{
@@ -80,17 +83,21 @@ float:right;
 }
 
 #left-ab-heading{
-width:60%;
-float:right;
-line-height:20px;
-clear:both;
+    
+        width: 60%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        
 }
 
 #right-ab-heading {
-  width: 60%;
-  float:left;
-  line-height:20px;
-  clear:both;  
+    
+        width: 60%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        
 }
 /*heading for fun*/
 
@@ -100,13 +107,16 @@ clear:both;
     font-size: 50px;
 }
 
+
+
 /*waterfun*/
 
 #bold {color: #177ed7;}
 
 /*sightseeing*/
+#light
+{color: #8d3793;}
 
-#light {color: #8d3793;}
 
 /*picture for fun*/
 
@@ -118,11 +128,13 @@ clear:both;
     border-color: #ccc;
     border-width: 1px;
     margin: 0 auto;
+  
 }
 
 #cov{
     background: url('../images/pexels-oliver-sjöström-1433052\ \(1\).jpg') no-repeat center;
-    height: 100%;
+    height: 100px;
+    
 }
 
 #box{
@@ -131,6 +143,7 @@ clear:both;
     padding: 1em;
     text-align: center;
     margin: auto;
+    
 }
 
 #open {
@@ -147,3 +160,30 @@ footer {
     text-align: center;
 }
 
+
+
+@media screen and (max-width: 1200px) {
+    #fun-to-do {
+        width: 65%;
+        height: 2000px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-ab, #right-ab {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-ab {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;}
+    }
+ 
