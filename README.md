@@ -75,6 +75,16 @@ in the Menu section the user can find navigation links to the "About", "Fun to d
 
   <h4>4.1.3 Unfixed bugs</h4>
    <li>No unfixed bugs</li>
+
+   <h4>4.1.4 Screen testing</h4>
+   <p>Tested on screens:</p>
+   <ul>
+    <li>Iphone SE
+    </li>
+    <li>Chrome
+    </li>
+    <li>Ipad mini</li>
+    </ul>
 <br>
   <h3>4.2 Userstorys</h3>
 
