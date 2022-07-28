@@ -49,24 +49,32 @@ in the Menu section the user can find navigation links to the "About", "Fun to d
   <li>implement a gallery with touris pictures</li>
 </ul>
 
-<h2>Testing</h2>
-
- <h3>Validator testing</h3>
+<h2>Tecnology</h2>
+<h3>Testing</h3>
+ <h4>Validator testing</h4>
  <p>The website was tested in different programes and came back without errors. Programs I used.</p>
   <ul>
    <li>W3C Validatore for HTML</li>
    <li>(Jigsaw) Validatore for CSS</li>
   </ul> 
 
- <h3>Bugs</h3>
-  <li> three bugs where detected and fixed during the validation of the project</li>
+ <h4>Bugs</h4>
+  <li> One bugs where detected and fixed during the validation of the project</li>
 
  ![bild](assets/images/debug1.jpg)
  <p>A dubbel closing "head" element. Was fixed by removing it</p>
 
  
-  <h3>Unfixed bugs</h3>
+  <h4>Unfixed bugs</h4>
    <li>No unfixed bugs</li>
+
+  <h3>Userstorys</h3>
+  <ul>
+  <li>Github:T save my workspace on</li>
+  <li>Gitpod:My workspace</li>
+  <li>CSS:For styling</li>
+  <li>HTML:For content</li>
+  </ul>
 
 <h2>Credits</h2>
  <h3>Text</h3>
@@ -77,6 +85,15 @@ in the Menu section the user can find navigation links to the "About", "Fun to d
  <h3>Media</h3>
   <ul>
    <li>The photos where taken from pexels</li>   
+
+   <h2>Deployment</h2>
+
+   <h3>Github</h3>
+   <ul>
+   <li>Went to my home page, choose my project: clicked on it</li>
+   <li>In the menu abow you can se a 'setting' button to the left. Clicked on it.</li>
+   <li>On the new page I clicked on the scroller menu and chose 'main'</li>
+   </ul>
 
 
 
