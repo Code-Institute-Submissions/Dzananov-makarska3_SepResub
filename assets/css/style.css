@@ -4,13 +4,30 @@ body{
     font-family: 'Cormorant SC', serif;
     font-weight: 300;
     color:#0b0d0f
+    
+}
+/*about box and fun header*/
+#box2{
+    background-color: #56748e;
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
 }
 
-/*Image; code from loverunning project*/
+#headerfun{
+    text-align:center;
+    margin: 50px 0;
+    font-size:50px;
+}
+
+/*Image first; code from loverunning project*/
 
 #imagejason {
     float: left;
-}
+   }
+
+
 
 h1{ 
     font-family: 'Cormorant SC', serif;
@@ -44,15 +61,16 @@ h1{
 color:#8db0cf
 } 
     
-    /*images*/
+    /*imagesfron*/
+   
 
 #imagejason
 {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url('../images/pexels-jaxson-bryden-2040626\ \(1\).jpg')no-repeat
     center
-   }
+}
    
    /*fun to do*/
 
@@ -66,34 +84,32 @@ color:#8db0cf
 padding-top: 30px;
 width: 33%;
 float: left;
-
 }
 
 #right-ab
 {
 padding-top:30px;
-max-width: 33%;
-float:right;
-
+width: 33%;
+float: right;
 }
 
 #center-ab{
-    padding-top:  30px;
-    margin: 0 auto;
+    padding-top:30px;
+    margin: 0;
 }
 
 #left-ab-heading{
-    
-        width: 60%;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
 }
+
+        
 
 #right-ab-heading {
     
-        width: 60%;
+        width: 50%;
         float: left;
         line-height: 20px;
         clear: both;
@@ -107,16 +123,14 @@ float:right;
     font-size: 50px;
 }
 
-
-
 /*waterfun*/
 
 #bold {color: #177ed7;}
 
 /*sightseeing*/
+
 #light
 {color: #8d3793;}
-
 
 /*picture for fun*/
 
@@ -127,31 +141,29 @@ float:right;
     border-style:solid;
     border-color: #ccc;
     border-width: 1px;
-    margin: 0 auto;
-  
-}
+    margin: auto;}
 
 #cov{
-    background: url('../images/pexels-oliver-sjöström-1433052\ \(1\).jpg') no-repeat center;
+    background: url('../images/brac.jpg') no-repeat center;
     height: 100%;
     
-}
+    }
 
 #box{
     background-color: #56748e;
     width: 50%;
     padding: 1em;
     text-align: center;
-    margin: auto;
-    
-}
+    margin-left: 25%;
+    }
 
 #open {
     background-color: #56748e;
     width: 50%;
     padding: 1em;
     text-align: center;
-    margin: auto;
+    margin-left: 25%;
+    
 }
 
 footer {
@@ -163,10 +175,21 @@ footer {
 
 
 @media screen and (max-width: 1200px) {
+
     #fun-to-do {
         width: 65%;
-        height: 2500px;
-        margin: 0 auto;
+        height: 1200px;
+        
+    }
+    #right-ab{
+        text-align: center;
+        width: 100%;
+        
+    }
+    #left-ab{
+        text-align: center;
+        width: 100%;
+
     }
 
     #welcome {
@@ -174,22 +197,62 @@ footer {
         margin: 0;
     }
 
-    #left-ab {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #right-ab {
-        width: 100%;
-        float: right;
-        padding: 0;
-    }
-
     #center-ab {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;}
+display: none;
     }
+
+    hr {
+        display: none;
+    }
+
+  
+    
+
+}
+
+    @media screen and (max-width: 950px) {
+
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
+    #left-ab-heading{
+        width: 80%;
+        text-align: center;
+        padding-left: 30px;
+        
+            
+           }
+    #right-ab-heading {
+            text-align: center;
+            padding-left: 50px;
+            width: 70%;}
+    #cov
+    {display: none;}
+
+    #box
+    {margin-top: 90%;}
+   
+        
+    
+
+    #light, #bold{
+        width:100%;
+    }
+
+    h1{
+        display: none;}
+    }
+
+
+
+
+
+  
+
+
  
