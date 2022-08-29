@@ -45,20 +45,22 @@ h1{
 
 /*menu links*/
 
-#menu
+.menu
 {
     font-size: 110%;
     letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #a3b5c4;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#outer {
-    height: 600px;
+.about {
+    height: 100%;
     width: 100%;
     overflow: hidden;
     }
@@ -73,57 +75,53 @@ color:#8db0cf
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
     
-    /*imagesfron*/
+    
    
 
-#imagejason
-{
-    height: 700px;
-    width: 100%;
-    background: url('../images/pexels-jaxson-bryden-2040626\ \(1\).jpg')no-repeat
-    center
-}
+
+
    
    /*fun to do*/
 
 #fun-to-do {
-    height:600px;
+    text-align: center
+    
     
 }
 
 #left-ab
 {
-padding-top: 30px;
-width: 33%;
-float: left;
+    width: 33%;
+    float: left;
 }
 
 #right-ab
 {
-padding-top:30px;
-width: 33%;
-float: right;
+    width: 33%;
+    float: right;
 }
 
 #center-ab{
-    padding-top:30px;
+    
     margin: 0;
 }
 
-#left-ab-heading{
+#left-ab-heading {
+    font-family:'Times New Roman', Times, serif;
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 100%;
     clear: both;
+    
 }
 
         
 
-#right-ab-heading {
+#right-ab-heading .textstyle {
     
-        width: 50%;
+        width: 60%;
         float: left;
-        line-height: 20px;
+        line-height: 100%;
         clear: both;
         
 }
@@ -224,24 +222,24 @@ display: none;
 
     @media screen and (max-width: 950px) {
 
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 0px;
-            margin-bottom: 20px;
-            line-height: 25px;
+        .menu {
+            margin-right: 10%;
+            text-size-adjust: 10%;
+           
         }
+       
+        
 
     #left-ab-heading{
         width: 80%;
         text-align: center;
-        padding-left: 30px;
+        padding-left: 50%;
         
             
            }
     #right-ab-heading {
             text-align: center;
-            padding-left: 50px;
+            padding-left: 50%;
             width: 70%;}
     #cov
     {display: none;}
