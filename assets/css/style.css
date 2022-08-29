@@ -8,26 +8,26 @@ body{
 }
 /*about box and fun header*/
 #box2{
-    background-color: #56748e;
+    background-color: #a3b5c4;
     width: 50%;
     padding: 1em;
     text-align: center;
     margin: auto;
 }
 
-#headerfun{
-    text-align:center;
-    margin: 50px 0;
-    font-size:50px;
+.header img {
+    float: left;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
-/*Image first; code from loverunning project*/
-
-#imagejason {
-    float: left;
-   }
-
-
+.header h1 {
+    float: right;
+    margin-top: 30%;
+    margin-right: 5%;
+    
+}
 
 h1{ 
     font-family: 'Cormorant SC', serif;
@@ -35,6 +35,13 @@ h1{
     letter-spacing: 3px;
     color: #0b0d0f
 }
+
+
+/*Image first; code from loverunning project*/
+
+#imagejason {
+    float: left;
+   }
 
 /*menu links*/
 
@@ -60,6 +67,11 @@ h1{
 {
 color:#8db0cf
 } 
+
+.textstyle
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
     
     /*imagesfron*/
    
