@@ -6,14 +6,9 @@ body{
     color:#0b0d0f
     
 }
-/*about box and fun header*/
-#box2{
-    background-color: #a3b5c4;
-    width: 50%;
-    padding: 1em;
-    text-align: center;
-    margin: auto;
-}
+
+/*header and headerimg*/
+
 
 .header img {
     float: left;
@@ -24,17 +19,13 @@ body{
 
 .header h1 {
     float: right;
-    margin-top: 30%;
+    margin-top: 35%;
     margin-right: 5%;
-}
-
-h1{ 
     font-family: 'Cormorant SC', serif;
     text-transform:uppercase;
     letter-spacing: 3px;
     color: #0b0d0f
 }
-
 
 /*Image first; code from loverunning project*/
 
@@ -132,8 +123,6 @@ color:#8db0cf
 
 #welcome {
     text-align: center;
-    margin: 50px 0;
-    font-size: 50px;
 }
 
 /*waterfun*/
@@ -172,6 +161,7 @@ color:#8db0cf
     padding: 1em;
     text-align: center;
     margin-left: 25%;
+    
     
 }
 
@@ -235,13 +225,12 @@ display: none;
         padding-left: 50%;
         
             
-           }
+    }
     #right-ab-heading {
             text-align: center;
             padding-left: 50%;
             width: 70%;}
-    #cov
-    {display: none;}
+   
 
     #box
     {margin-top: 90%;}
@@ -257,16 +246,4 @@ display: none;
     #light, #bold{
         width:100%;
     }
-
-    h1{
-        display: none;}
-    }
-
-
-
-
-
-  
-
-
- 
+}
