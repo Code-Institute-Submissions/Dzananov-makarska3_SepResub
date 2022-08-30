@@ -27,11 +27,9 @@ body{
     color: #0b0d0f
 }
 
-/*Image first; code from loverunning project*/
 
-#imagejason {
-    float: left;
-   }
+
+
 
 /*menu links*/
 
@@ -77,11 +75,7 @@ color:#8db0cf
 #fun-to-do {
     text-align: center;
     margin-bottom: 10%;
-    
-    
 }
-
-
 
 #left-ab
 {
@@ -108,8 +102,6 @@ color:#8db0cf
     clear: both;
     
 }
-
-        
 
 #right-ab-heading{
         font-family: 'Times New Roman', Times, serif;
@@ -141,8 +133,8 @@ color:#8db0cf
     height: 300px;
     padding: 30px;
     border-style:solid;
-    border-color: #ccc;
-    border-width: 1px;
+    border-color: #8db0cf;
+    border-width: 3px;
     margin: auto;}
 
 #cov{

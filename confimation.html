@@ -16,9 +16,29 @@
     background-color: #b2c5d6;
     width: 50%;
     text-align: center;
-    padding: 1em; margin-left: 25%;
-    
+    padding: 1em; margin-left: 25%;}
+
+/*menu links*/
+
+.menu
+{
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+.menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.header {
+    height: 20%;
+    margin-left: 25%;
+}  
+
 @media screen and (max-width: 950px){
     #message{
      width: 50%;
@@ -29,6 +49,27 @@
 
 
     </style>
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="#buisness">Buisness Inquiris</a>
+            </li>
+            <li>
+                <a href="#fun-to-do">Fun to do</a>
+            </li>
+            <li>
+                <a class="menutext" href="#welcome">About</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header">
+        <img src="/assets/images/makarska.jpg" alt="makarska">
+        
+    </div>
+    
+</header>
 </head>
 
 <div id="message">
