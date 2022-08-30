@@ -26,7 +26,6 @@ body{
     float: right;
     margin-top: 30%;
     margin-right: 5%;
-    
 }
 
 h1{ 
@@ -50,13 +49,14 @@ h1{
     font-size: 110%;
     letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #a3b5c4;
+   
 }
 
 .menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 .about {
@@ -84,10 +84,13 @@ color:#8db0cf
    /*fun to do*/
 
 #fun-to-do {
-    text-align: center
+    text-align: center;
+    margin-bottom: 10%;
     
     
 }
+
+
 
 #left-ab
 {
@@ -117,8 +120,8 @@ color:#8db0cf
 
         
 
-#right-ab-heading .textstyle {
-    
+#right-ab-heading{
+        font-family: 'Times New Roman', Times, serif;
         width: 60%;
         float: left;
         line-height: 100%;
@@ -159,16 +162,12 @@ color:#8db0cf
     
     }
 
-#box{
-    background-color: #56748e;
-    width: 50%;
-    padding: 1em;
-    text-align: center;
-    margin-left: 25%;
-    }
 
-#open {
-    background-color: #56748e;
+    
+
+.open {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #a9bfd2;
     width: 50%;
     padding: 1em;
     text-align: center;
