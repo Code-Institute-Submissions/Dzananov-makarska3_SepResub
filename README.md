@@ -1,18 +1,12 @@
-<h1>Project 1: Readme</h1>
-<h2>1.Purpose</h2>
-<p>Purpose of the project is for users of the website is to have a collected site with information about Makarska. The user can read a little about Makarska and also click in the menu to read about "fun to do" in Makarska and also contact an touris guide via the website.</p>
+# Welcome to makarska
 
-![bild](assets/images/bild1projekt.jpg)
+<p>Have you ever dreamt of travelling to the beautiful Country Croatia? With its beautiful beaches and amazing natur. One of the most populare citys of the mediterrian country is Makarska. Its a beautiful place near to both Jelca and Brac and not to speak about how amazing the beaches are with amazing blue water and fun activitis. I have created a touristguid to guidline you trough activitis in and near Makarska. A perfect "first-visit-guide"
 
 
-<h2 id="features">2.Features</h2>
-<ul>
-  <li>The user has an menu section(as you can see on the print abowe) where he/she can click on the links and the page will automaticlly scroll to:</li>
-   <li>Fun to do: A page with suggestions to what you can do when in Makarska.</li>
-   <li>About: A little facts about Makarska.</li>
-   <li>Buisness Inquires: A form where the user can get in touch with a touris guide</li>
 
-</ul>
+
+## User Storys
+<p>User can choose to click on the menu to navigat troughout the page or they can scroll. When user scroll down the page one can read some facts about Maskarska. Following, a section with fun activitis in makarska, both playfull activitis and sightseeing. The user also have the option to get in contact with us to book one of our touristeguides based in Makarska. User books trough a form. Users are required to fill in both name, email and a message with questions. When the message is sent user will get a confirmation message. One can therafter click back to mainpage trough the menusection.</p>
 
 in the Menu section the user can find navigation links to the "About", "Fun to do" and "Buisness inquiris" sections.
 ![image](https://user-images.githubusercontent.com/108834853/180093984-00174115-7ec0-4234-9486-c7beb51b1ccf.png)

@@ -38,6 +38,7 @@ body{
     font-size: 110%;
     letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
    
 }
 
@@ -47,6 +48,7 @@ body{
     margin-right: 10%;
     margin-top: 5%;
 }
+
 
 .about {
     height: 100%;
@@ -163,7 +165,7 @@ footer {
 
     #fun-to-do {
         width: 65%;
-        height: 1200px;
+        text-align: center;
         
     }
     #right-ab{
@@ -174,30 +176,21 @@ footer {
     #left-ab{
         margin-left: 25%;
         width: 100%;
-
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    .center-ab {
+   
+  
+  
+    .cont {
         display: none;
     }
-
-  
-    
+   
 
 }
 
     @media screen and (max-width: 950px) {
 
-        .menu {
-            margin-right: 10%;
-            text-size-adjust: 10%;
-           
-        }
+
        
         
 
@@ -212,20 +205,23 @@ footer {
             text-align: center;
             padding-left: 50%;
             width: 70%;}
-   
 
-    #box
-    {margin-top: 90%;}
-   
-    #imagejason
-    {
-        width:100% ;
-        padding: 0px 0px 30px 30px;
+    .cont {
+        display: none;
     }
-        
+   
+.header img{
+margin-left: 25%;
+}
+
+.header h1 {
+    
+    margin-left: 20%;
+    
+    
+}
     
 
-    #light, #bold{
-        width:100%;
-    }
+   
+    
 }
