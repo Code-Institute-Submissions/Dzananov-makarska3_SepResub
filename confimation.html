@@ -12,21 +12,36 @@
 
     <title>confimation</title>
     <style>
-#message{
-    background-color: #b2c5d6;
-    width: 50%;
-    text-align: center;
-    padding: 1em; margin-left: 25%;}
+.header img {
+    float: left;
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.header h2 {
+    float: right;
+    margin-top: 35%;
+    margin-right: 5%;
+    font-family: 'Cormorant SC', serif;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    color: #0b0d0f
+}
+
+
+
+
 
 /*menu links*/
 
 .menu
 {
     font-size: 110%;
-   
+    letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
-
 
 .menu li {
     float: right;
@@ -34,10 +49,11 @@
     margin-right: 10%;
     margin-top: 5%;
 }
-.header img {
-    width: 25%;
-    margin-left: 25%;
-}  
+
+
+/*menu links*/
+
+ 
 
 @media screen and (max-width: 950px){
     #message{
@@ -49,36 +65,29 @@
 
 
     </style>
-
-<header>
-    <nav>
-        <ul class="menu">
-            <li>
-                <a href="#buisness">Buisness Inquiris</a>
-            </li>
-            <li>
-                <a href="#fun-to-do">Fun to do</a>
-            </li>
-            <li>
-                <a class="menutext" href="#welcome">About</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="header">
-        <img src="/assets/images/makarska.jpg" alt="makarska">
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#buisness">Buisness Inquiris</a>
+                </li>
+                <li>
+                    <a href="#fun-to-do">Fun to do</a>
+                </li>
+                <li>
+                    <a class="menutext" href="#welcome">About</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header">
+            
+            <h2>Thank you for your message! <br>
+            <p>Somebody will contact you!</p></h2>
+            <br>
+            
+        </div>
         
-    </div>
-    
-</header>
-</head>
-
-<div id="message">
-  <h2>Your message has been sent</h1>
-  <p>Somebody will get back to you soon</p>
-<form method="GET"  action="index.html">
-  <input type="submit" id="get back">
-  <label for="get back">Get back to homepage</label>
- </form>
-</div>
-
+    </header>
+</body>
 

@@ -89,7 +89,7 @@ color:#8db0cf
     float: right;
 }
 
-#center-ab{
+.center-ab{
     
     margin: 0;
 }
@@ -123,28 +123,22 @@ color:#8db0cf
 
 /*sightseeing*/
 
-#light
-{color: #8d3793;}
+#light {
+    color: #8d3793;}
 
 /*picture for fun*/
 
-#cont{
-    width: 300px;
-    height: 300px;
+.cont {
+    width: 70%;
+    height: 100%;
     padding: 30px;
     border-style:solid;
     border-color: #8db0cf;
     border-width: 3px;
     margin: auto;}
 
-#cov{
-    background: url('../images/brac.jpg') no-repeat center;
-    height: 100%;
-    
-    }
 
 
-    
 
 .open {
     font-family: 'Times New Roman', Times, serif;
@@ -178,7 +172,7 @@ footer {
         
     }
     #left-ab{
-        text-align: center;
+        margin-left: 25%;
         width: 100%;
 
     }
@@ -188,11 +182,7 @@ footer {
         margin: 0;
     }
 
-    #center-ab {
-display: none;
-    }
-
-    hr {
+    .center-ab {
         display: none;
     }
 
