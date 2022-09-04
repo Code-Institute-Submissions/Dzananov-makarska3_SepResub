@@ -13,7 +13,7 @@ body{
     font-weight: bolder;
     padding: 20px;
     padding-left: 80px;
-    background:#8db0cf
+    background:#4db0cf
 }
 
 
@@ -90,19 +90,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
    
-   /*fun to do*/
-
-
-
-
-
-
-.center-ab{
+   /*buisness I section*/
+   .contact {
     
-    margin: 0;
-}
+    background-color:cadetblue;
+    padding: 1em;
+    margin: 20%;
+   
+    
+   }
 
-/*testar*/
+
+
+
+
+
+
 
     
 
@@ -111,14 +114,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 
-/*waterfun*/
 
-#bold {color: #177ed7;}
 
-/*sightseeing*/
 
-#light {
-    color: #8d3793;}
 
 /*buisness inquris*/
 
@@ -144,7 +142,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 .open {
-    font-family: 'Times New Roman', Times, serif;
+   
     background-color: #ffffff;
     
     padding: 1em;
