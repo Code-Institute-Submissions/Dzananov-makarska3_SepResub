@@ -12,96 +12,89 @@
 
     <title>confimation</title>
     <style>
+.head{
+    color: #fff;
+    font-weight: bolder;
+    padding: 20px;
+    padding-left: 80px;
+    background:#4db0cf
+}
+
+
 .header img {
-    float: left;
-    width: 25%;
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+h1 {
     margin-top: 10%;
-    margin-left: 5%;
+    font-size: 200%;
+    color: #0b0d0f;
+    text-align: center;
 }
-
-.header h2 {
-    float: right;
-    margin-top: 35%;
-    margin-right: 5%;
-    font-family: 'Cormorant SC', serif;
-    text-transform:uppercase;
-    letter-spacing: 3px;
-    color: #0b0d0f
-}
-
-
-
 
 
 /*menu links*/
-
 .menu
 {
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
+    overflow: hidden;
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    height: 100%;/* Full width */
+    margin-top: 5px;
+    float: left;
+} 
+
+
+.menu a {
+    text-decoration: none;
 }
+
+
+.menu a:hover {
+    border: 1px solid #3a3a3a;
+    }   
 
 .menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 10%;
-    margin-top: 5%;
+    float:left;
+    display: block;
+    color:#0b0d0f;
+    margin-left: 5%;
+    text-decoration: none;
+    font-size:large;  
 }
 
-.box {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #a9bfd2;
-    width: 50%;
-    padding: 1em;
+h2 {
     text-align: center;
-    margin-top: 20%;
-    margin-left: 25%;}
-
-.mainpage{
-    font-size: small;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*menu links*/
-
- 
-
-@media screen and (max-width: 950px){
-    #message{
-     width: 50%;
-    }
-
-    
-}
-
-
-    </style>
+</style>
+<!--menu nav and links to each page-->
 <body>
     <header>
-    
-        <nav>
-            <ul class="menu">
+        <nav class="menu">
+            <ul>
                 <li>
-                    <a href="/index.html#buisness">Buisness Inquiris</a>
-                    
+                    <a href="index.html#home">Who we Are</a>
                 </li>
                 <li>
-                    <a href="/index.html#fun-to-do">Fun to do</a>
+                    <a href="index.html#welcome">About</a>
                 </li>
                 <li>
-                    <a class="menutext" href="index.html#welcome">About</a>
+                    <a href="index.html#fun-to-do">Fun to do</a>
+                </li>
+                <li>
+                    <a href="index.html#buisness">Buisness Inquiris</a>
                 </li>
             </ul>
         </nav>
-    </form>
-        
-
-        <a class="mainpage" href="index.html">Click here to go back to mainpage</a>
-        
+    <div class="header">
+        <img src="assets/images/heroimage4.jpg" alt="Makarskas dock">
+    </div>
     </header>
-    <div class="box">
             
         <h2>Thank you for your message! <br>
         <p>Somebody will contact you!</p></h2>
@@ -109,4 +102,3 @@
         
     </div>
 </body>
-
