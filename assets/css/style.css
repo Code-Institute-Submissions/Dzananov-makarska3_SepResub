@@ -46,7 +46,7 @@ h1 {
     float: left;
 }     
 .menu a:hover {
-border-bottom: 1px solid #3a3a3a;
+border: 1px solid #3a3a3a;
     }   
     
 
@@ -77,29 +77,24 @@ border-bottom: 1px solid #3a3a3a;
     color:#8db0cf
     } 
 
-.textstyle 
-{
-font-family: Georgia, 'Times New Roman', Times, serif;
+.textstyle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
     
-    
- /*heading for about*/
+/*buisness I section*/
+.contact {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
 
+#colorful {
+    color:#4db0cf;
+}
 
-
-
-
-   
-   /*buisness I section*/
-   .contact {
-    
-    background-color:cadetblue;
-    padding: 1em;
-    margin: 20%;
-   
-    
-   }
-
+.textstyle {
+    font-size:x-small;
+}
 
 
 
