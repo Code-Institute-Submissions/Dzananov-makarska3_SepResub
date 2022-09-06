@@ -33,8 +33,7 @@ h1 {
 
 
 /*menu links*/
-.menu
-{
+.menu {
     overflow: hidden;
     position: absolute; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -51,8 +50,8 @@ h1 {
 
 
 .menu a:hover {
-    border: 1px solid #3a3a3a;
-    }   
+    border: 1px solid #ffffff;
+}   
     
 
 .menu li {
@@ -79,7 +78,7 @@ h1 {
 }
 
 
-.croatiaimage{
+.croatiaimage {
     flex: 33.33%;
     padding: 5px;
 }
@@ -92,7 +91,7 @@ h1 {
     text-align: center;
 }
 
-#colorful {
+.colorful {
     color:#4db0cf;
 }
 
@@ -101,22 +100,12 @@ h1 {
 }
 
 
-/*buisness inquris*/
-
-
-
-
 /*all textbox styling*/
 .open {
-   
     background-color: #ffffff;
-    
     padding: 1em;
-    
     padding-left: 100px;
     padding-right: 100px;
-    
-    
 }
 
 footer {

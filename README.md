@@ -10,10 +10,14 @@
 <br>
 
 ### Features
-* Navigation link bar connected to different section of the page
-* A form to fill in with required sections to fill in.
-* When redirected to the confirmation message, user can redirect back to the main page with one link och jump directly to other section on the main page trough the menubar.
-* Pictures in a row with a responsiv design. they will stack up when the screen get smaller
+* Navigation link bar connected to different section of the page:
+* The different sections have all styled headers with blue backgrounds and white text to match the team of the page. Except for the first header "Welcome to MakarskaGroup". 
+* The whole page contains four pictures of Makarska. All of them are with blue ocean visible to fit the styling of the page. 
+* A form to fill in with required sections down on the page with a table of "Open Hours". Both have matching text colour.
+* When redirected to the confirmation message, user can redirect back to the main page trough the menubar
+* The whole page is responsiv. Some sections are hardcoded with pixels to stay in place even when  the screen gets smaller but also with % to match the screensize
+* The footer contains links to facebook and instagram and twitter. All of whom redirect to mentioned mainpages
+
 
 ### Future Features
 
@@ -27,20 +31,40 @@
 * Gitpod used to work with my HTML and CSS codes on
 * W3C Validator to validat my HTML codes
 * CSS Validator to validate my CSS codes
+* HTML for codes to build the webpage
+* CSS codes for styling
 <br>
 
 ## Testing
 
 I have tested my wbpage by navigating troughout the website with this steps.
-* I clicked on the different menu section chooises to look for any broken links. No btroken links found.
-![image](https://user-images.githubusercontent.com/108834853/180093984-00174115-7ec0-4234-9486-c7beb51b1ccf.png)
+* I clicked on the different menu section to look for any broken links. No btroken links found.
+![image](imagereadme/testinmenu.jpg)
+On This first picture I am testing the different links both on the mainpage but also on the confirmationpage.
+<br>
 
-* I tried to sen a empty form down in the Buisness Inquiris section. It did not work. Then I tried to fill out the form and send. That worked fine. I than tried every link in the "Confirmation message" and every link worked.
+![bild](imagereadme/sections.jpg)
+When I clicked on the "About" link in the menu it directed me to the "About" section. The header has a blue colour to match the team of the page.
+<br>
 
-* I have tested my page trough the HTML Validator. No errors
+![bild](imagereadme/pictures.jpg)
+The page contains beautiful pictures of Makarska. Pixels are good and the images dosent get blurry on any screentest.
+<br>
 
-* I hav tested my page trough the CSS validator. No errors found.
+* I tried to sen a empty form down in the Buisness Inquiris section. It did not work. Then I tried to fill out the form and send. That worked fine. I than tried every link in the "Confirmation message" and every link worked. 
 
+![bild](imagereadme/contactform.jpg)
+![bild](imagereadme/confirmation.jpg)
+Every link on the confirmationpage works fine.
+
+
+* I have tested my page trough the HTML Validator. https://validator.w3.org/ I copy pasted the whole codepage. No errors detected.
+
+![bild](imagereadme/validationhtml.jpg)
+
+* I hav tested my page trough the CSS validator. https://jigsaw.w3.org/css-validator/ I copy and pasted the whole codepage. No errors found.
+
+![bild](imagereadme/valdiationcss.jpg)
 ### Bugs
 
 One bug where detected and fixed during the validation of the project
@@ -66,13 +90,6 @@ One bug where detected and fixed during the validation of the project
 
 * On gitpod:First I choose "terminal" from the bar to the top left. There I chose "New terminal" to have one more terminal to work with. Then I wrote "python3 -m http.server" in the first terminal and enter.
 
-  <ul>
-  <li>Github:T save my workspace on</li>
-  <li>Gitpod:My workspace</li>
-  <li>CSS:For styling</li>
-  <li>HTML:For content</li>
-  </ul>
-
 ## Credits
 
  ### Text
@@ -81,7 +98,7 @@ One bug where detected and fixed during the validation of the project
 
  ### Media
   
-   The photos where taken from pexels  
+   The free photos where taken from pexels  
 
    
 
