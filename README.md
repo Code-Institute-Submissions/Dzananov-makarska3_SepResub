@@ -25,6 +25,12 @@
 * Add a section where tourist can give feedback on their experience
 <br>
 
+## Wireframe
+
+I choose to use one wirefram for this project, showing how I planned my new webdesign wich I later filled with content that fitted the purpose.
+
+![bild](imagereadme/wireframe.jpg)
+
 ## Technology
 
 * Github to store my repostories
@@ -67,18 +73,19 @@ Every link on the confirmationpage works fine.
 ![bild](imagereadme/valdiationcss.jpg)
 ### Bugs
 
-One bug where detected and fixed during the validation of the project
+Two bug where detected and fixed during the validation of the project
 
- ![bild](assets/images/debug1.jpg)
- <p>A dubbel closing "head" element. I did not notice the error straight away but I did notice that my page was not as it should be. So I scanned the codes and detected the problem almost right away.</p>
+ ![bild](imagereadme/debug1.jpg)
+ * A dubbel closing "head" element. I did not notice the error straight away but I did notice that my page was not as it should be. So I scanned the codes and detected the problem almost right away.
 
- Another Bug was detected after submission. A broken link in the menu section. The reason for that was that I changed the ID name but forgott to change it in the used menu link.
+ * Another Bug was detected after submission. A broken link in the menu section. The reason for that was that I changed the ID name but forgott to change it in the used menu link.
+ ![bild](/imagereadme/wrongidbug.jpg)
 
-  ### Unfixed bugs
-   <p>No unfixed bugs</p>
+### Unfixed bugs
+No unfixed bugs
 
-   ### Screen testing
-   <p>Tested on screens:</p>
+### Screen testing
+Tested on screens:
   
   * Webbrowser
   * Iphone SE
@@ -92,11 +99,11 @@ One bug where detected and fixed during the validation of the project
 
 ## Credits
 
- ### Text
+### Text
   * The footer code was taken from the Love Running project
   * I used some of W3Schools codes to line up the pictures. I used their flex example. The codes bleong to the Pictures class and Croatiaimage class in the CSS file. Not the responsive ones thou.  
 
- ### Media
+### Media
   
    The free photos where taken from pexels  
 
